@@ -67,7 +67,10 @@ def run(songs)
       list(songs)
     end
     user = gets.chomp
-    
+    value = true
+    if user == "exit"
+      value = false
+    end
   end
   exit_jukebox
   
