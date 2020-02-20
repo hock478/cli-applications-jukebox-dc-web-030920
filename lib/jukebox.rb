@@ -66,6 +66,7 @@ def run(songs)
     elsif user == "list"
       list(songs)
     end
+    user = gets.chomp
     
   end
   exit_jukebox
